@@ -1,0 +1,46 @@
+use "mathlib";
+
+number i;
+number j;
+BOOLEAN x:=false;
+
+array<number> arr := [1,2,3,4,5];
+
+
+number sum := i + j;
+
+
+for(i between 1 : 100:2){
+    while (j>=0) {
+        if (x==true) then {
+            i2 := i + 1;
+            i3 := i / 1;
+            i := 2+1;
+            x:=false;
+        } else {
+            x:=true;
+        }
+    }
+    print("the value of i is:");
+    print(i);
+    print("the value of j is:");
+    print(j);
+    print("the value of x is:");
+    print(x);
+}
+print(x);
+if (x==true) then {
+    x:=false;
+} else {
+    x:=true;
+    for (i between 1:100:2){
+        print(yes);
+    }
+}
+
+
+function add (number x ,number y)
+{
+    temp := x + y;
+    return temp;
+}
